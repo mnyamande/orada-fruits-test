@@ -84,7 +84,7 @@ def train_model(data_df, vectorizer_type='count'):
     
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.00, random_state=42
+        X, y, test_size=0.01, random_state=42
     )
     
     # Train model
